@@ -1,0 +1,43 @@
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\bin\Debug\Knjiznica.exe
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\bin\Debug\Knjiznica.pdb
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.csproj.AssemblyReference.cache
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.Properties.Resources.resources
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.csproj.GenerateResource.cache
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.exe
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.pdb
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.Forme.Ucenici.resources
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiPosudbe.resources
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.Forme.DetaljiUcenika.resources
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.Forme.Knjige.resources
+C:\Users\Danijel Husaković\Documents\repos\Knjiznica\obj\Debug\Knjiznica.Forme.frmKnjiznica.resources
+C:\Users\User\Desktop\da\Knjiznica-master\bin\Debug\Knjiznica.exe.config
+C:\Users\User\Desktop\da\Knjiznica-master\bin\Debug\Knjiznica.exe
+C:\Users\User\Desktop\da\Knjiznica-master\bin\Debug\Knjiznica.pdb
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.DetaljiPosudbe.resources
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.DetaljiUcenika.resources
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.Knjige.resources
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.frmKnjiznica.resources
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.Ucenici.resources
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.Properties.Resources.resources
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.GenerateResource.cache
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.exe
+C:\Users\User\Desktop\da\Knjiznica-master\obj\Debug\Knjiznica.pdb
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\bin\Debug\Knjiznica.exe.config
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\bin\Debug\Knjiznica.exe
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\bin\Debug\Knjiznica.pdb
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.DetaljiPosudbe.resources
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.DetaljiUcenika.resources
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.Knjige.resources
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.frmKnjiznica.resources
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.Ucenici.resources
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.Properties.Resources.resources
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.GenerateResource.cache
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.exe
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.pdb
