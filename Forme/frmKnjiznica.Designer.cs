@@ -59,6 +59,7 @@ namespace Knjiznica.Forme
             this.btnPosudi.TabIndex = 1;
             this.btnPosudi.Text = "Posudi";
             this.btnPosudi.UseVisualStyleBackColor = true;
+            this.btnPosudi.Click += new System.EventHandler(this.btnPosudi_Click);
             // 
             // btnUredi
             // 
@@ -69,6 +70,7 @@ namespace Knjiznica.Forme
             this.btnUredi.TabIndex = 2;
             this.btnUredi.Text = "Uredi";
             this.btnUredi.UseVisualStyleBackColor = true;
+            this.btnUredi.Click += new System.EventHandler(this.btnUredi_Click);
             // 
             // btnVrati
             // 
@@ -79,6 +81,7 @@ namespace Knjiznica.Forme
             this.btnVrati.TabIndex = 3;
             this.btnVrati.Text = "Vrati";
             this.btnVrati.UseVisualStyleBackColor = true;
+            this.btnVrati.Click += new System.EventHandler(this.btnVrati_Click);
             // 
             // label1
             // 
@@ -114,6 +117,7 @@ namespace Knjiznica.Forme
             this.knjigeToolStripMenuItem.Name = "knjigeToolStripMenuItem";
             this.knjigeToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.knjigeToolStripMenuItem.Text = "Knjige";
+            this.knjigeToolStripMenuItem.Click += new System.EventHandler(this.knjigeToolStripMenuItem_Click);
             // 
             // frmKnjiznica
             // 

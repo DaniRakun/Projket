@@ -40,7 +40,7 @@ namespace Knjiznica.Forme
             this.tbPrezime = new System.Windows.Forms.TextBox();
             this.tbAdresa = new System.Windows.Forms.TextBox();
             this.tbTelefon = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbRazred = new System.Windows.Forms.ComboBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -57,7 +57,7 @@ namespace Knjiznica.Forme
             // tbOIB
             // 
             this.tbOIB.Location = new System.Drawing.Point(104, 35);
-            this.tbOIB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbOIB.Margin = new System.Windows.Forms.Padding(2);
             this.tbOIB.Name = "tbOIB";
             this.tbOIB.Size = new System.Drawing.Size(147, 20);
             this.tbOIB.TabIndex = 1;
@@ -111,11 +111,12 @@ namespace Knjiznica.Forme
             this.label6.Size = new System.Drawing.Size(41, 13);
             this.label6.TabIndex = 6;
             this.label6.Text = "Razred";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // tbIme
             // 
             this.tbIme.Location = new System.Drawing.Point(104, 63);
-            this.tbIme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbIme.Margin = new System.Windows.Forms.Padding(2);
             this.tbIme.Name = "tbIme";
             this.tbIme.Size = new System.Drawing.Size(147, 20);
             this.tbIme.TabIndex = 7;
@@ -123,7 +124,7 @@ namespace Knjiznica.Forme
             // tbPrezime
             // 
             this.tbPrezime.Location = new System.Drawing.Point(104, 94);
-            this.tbPrezime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbPrezime.Margin = new System.Windows.Forms.Padding(2);
             this.tbPrezime.Name = "tbPrezime";
             this.tbPrezime.Size = new System.Drawing.Size(147, 20);
             this.tbPrezime.TabIndex = 8;
@@ -131,7 +132,7 @@ namespace Knjiznica.Forme
             // tbAdresa
             // 
             this.tbAdresa.Location = new System.Drawing.Point(104, 125);
-            this.tbAdresa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbAdresa.Margin = new System.Windows.Forms.Padding(2);
             this.tbAdresa.Name = "tbAdresa";
             this.tbAdresa.Size = new System.Drawing.Size(147, 20);
             this.tbAdresa.TabIndex = 9;
@@ -139,35 +140,36 @@ namespace Knjiznica.Forme
             // tbTelefon
             // 
             this.tbTelefon.Location = new System.Drawing.Point(104, 158);
-            this.tbTelefon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTelefon.Margin = new System.Windows.Forms.Padding(2);
             this.tbTelefon.Name = "tbTelefon";
             this.tbTelefon.Size = new System.Drawing.Size(147, 20);
             this.tbTelefon.TabIndex = 10;
             // 
-            // comboBox1
+            // cbRazred
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbRazred.FormattingEnabled = true;
+            this.cbRazred.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4"});
-            this.comboBox1.Location = new System.Drawing.Point(104, 193);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(43, 21);
-            this.comboBox1.TabIndex = 11;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cbRazred.Location = new System.Drawing.Point(104, 193);
+            this.cbRazred.Margin = new System.Windows.Forms.Padding(2);
+            this.cbRazred.Name = "cbRazred";
+            this.cbRazred.Size = new System.Drawing.Size(43, 21);
+            this.cbRazred.TabIndex = 11;
+            this.cbRazred.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btnOK
             // 
             this.btnOK.Location = new System.Drawing.Point(104, 235);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(2);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(97, 33);
             this.btnOK.TabIndex = 12;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // DetaljiUcenika
             // 
@@ -175,7 +177,7 @@ namespace Knjiznica.Forme
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(300, 278);
             this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbRazred);
             this.Controls.Add(this.tbTelefon);
             this.Controls.Add(this.tbAdresa);
             this.Controls.Add(this.tbPrezime);
@@ -187,9 +189,10 @@ namespace Knjiznica.Forme
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbOIB);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DetaljiUcenika";
             this.Text = "Detalji Učenika";
+            this.Load += new System.EventHandler(this.DetaljiUcenika_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,7 +211,7 @@ namespace Knjiznica.Forme
         private System.Windows.Forms.TextBox tbPrezime;
         private System.Windows.Forms.TextBox tbAdresa;
         private System.Windows.Forms.TextBox tbTelefon;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbRazred;
         private System.Windows.Forms.Button btnOK;
     }
 }

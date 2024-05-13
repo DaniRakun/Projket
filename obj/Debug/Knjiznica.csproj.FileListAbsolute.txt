@@ -41,3 +41,4 @@ C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.cspr
 C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.exe
 C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.pdb
+C:\Users\User\Documents\Škola\NIOP\da\Knjiznica-master\obj\Debug\Knjiznica.Forme.DetaljiKnjige.resources
