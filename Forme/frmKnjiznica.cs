@@ -98,5 +98,31 @@ namespace Knjiznica.Forme
 
 
         }
+
+        private void usporedbaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void poDatumuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Posudba.Usporedba = new UsporedbaPoDatumu();
+            OsvjeziPosudbe();
+
+        }
+
+        private void poUčenikuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Posudba.Usporedba = new UsporedbaPoUceniku();
+            OsvjeziPosudbe();
+
+        }
+
+        private void poKnjiziToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Posudba.Usporedba = new UsporedbaPoKnjizi();
+            OsvjeziPosudbe();
+
+        }
     }
 }

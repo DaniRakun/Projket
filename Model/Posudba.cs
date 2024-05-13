@@ -27,9 +27,13 @@ namespace Knjiznica.Model
                 + " -> " + this.Ucenik.ToString();
         }
 
+       
         public int CompareTo(object obj)
         {
-            return this.DatumPosudbe.CompareTo(((Posudba)obj).DatumPosudbe);
+            return Posudba.Usporedba.Usporedi(this, (Posudba)obj);
         }
+
+
+        public static IStrategy Usporedba = new UsporedbaPoDatumu();
     }
 }

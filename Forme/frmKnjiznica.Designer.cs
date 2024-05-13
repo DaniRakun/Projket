@@ -37,6 +37,10 @@ namespace Knjiznica.Forme
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.uceniciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.knjigeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usporedbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.poDatumuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.poUčenikuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.poKnjiziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,7 +102,8 @@ namespace Knjiznica.Forme
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.uceniciToolStripMenuItem,
-            this.knjigeToolStripMenuItem});
+            this.knjigeToolStripMenuItem,
+            this.usporedbaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(600, 24);
@@ -118,6 +123,38 @@ namespace Knjiznica.Forme
             this.knjigeToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.knjigeToolStripMenuItem.Text = "Knjige";
             this.knjigeToolStripMenuItem.Click += new System.EventHandler(this.knjigeToolStripMenuItem_Click);
+            // 
+            // usporedbaToolStripMenuItem
+            // 
+            this.usporedbaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.poDatumuToolStripMenuItem,
+            this.poUčenikuToolStripMenuItem,
+            this.poKnjiziToolStripMenuItem});
+            this.usporedbaToolStripMenuItem.Name = "usporedbaToolStripMenuItem";
+            this.usporedbaToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.usporedbaToolStripMenuItem.Text = "Usporedba";
+            this.usporedbaToolStripMenuItem.Click += new System.EventHandler(this.usporedbaToolStripMenuItem_Click);
+            // 
+            // poDatumuToolStripMenuItem
+            // 
+            this.poDatumuToolStripMenuItem.Name = "poDatumuToolStripMenuItem";
+            this.poDatumuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.poDatumuToolStripMenuItem.Text = "Po datumu";
+            this.poDatumuToolStripMenuItem.Click += new System.EventHandler(this.poDatumuToolStripMenuItem_Click);
+            // 
+            // poUčenikuToolStripMenuItem
+            // 
+            this.poUčenikuToolStripMenuItem.Name = "poUčenikuToolStripMenuItem";
+            this.poUčenikuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.poUčenikuToolStripMenuItem.Text = "Po učeniku";
+            this.poUčenikuToolStripMenuItem.Click += new System.EventHandler(this.poUčenikuToolStripMenuItem_Click);
+            // 
+            // poKnjiziToolStripMenuItem
+            // 
+            this.poKnjiziToolStripMenuItem.Name = "poKnjiziToolStripMenuItem";
+            this.poKnjiziToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.poKnjiziToolStripMenuItem.Text = "Po knjizi";
+            this.poKnjiziToolStripMenuItem.Click += new System.EventHandler(this.poKnjiziToolStripMenuItem_Click);
             // 
             // frmKnjiznica
             // 
@@ -152,5 +189,9 @@ namespace Knjiznica.Forme
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem uceniciToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem knjigeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usporedbaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem poDatumuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem poUčenikuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem poKnjiziToolStripMenuItem;
     }
 }
